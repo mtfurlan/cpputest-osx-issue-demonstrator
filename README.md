@@ -5,7 +5,7 @@ Steps to replicate:
 git clone https://github.com/mtfurlan/cpputest-osx-issue-demonstrator.git
 cd cpputest-osx-issue-demonstrator
 git submodule update --init
-cd test/cpputest
+cd test
 cd cpputest && ./autogen.sh && ./configure && make -j8 && cd ..
 make
 ```
